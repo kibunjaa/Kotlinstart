@@ -1,10 +1,12 @@
+import kotlin.io.readLine as readLine1
+
 fun main()
 {
     // ask the user to enter marks
     println("Enter your marks: ")
 
     // read input marks from the user
-    val marks = readLine()?.toIntOrNull()
+    val marks = readLine1()?.toIntOrNull()
 
     // check if the input is an integer
     if (marks != null && marks in 0..100)
